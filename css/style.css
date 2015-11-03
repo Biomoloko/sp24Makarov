@@ -1,0 +1,84 @@
+
+header{
+min-height: 75px;
+background-color: #ffce34;
+}
+.logo {
+	text-decoration: none;
+    color: black;
+}
+.left{float: left;}
+.right {
+	float: right;}
+.center{text-align: center;}
+.inline{display: inline-block;}
+.container{width: 930px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-left: 15px;}
+
+nav.main-nav.right {text-decoration: none;}
+
+.promo-title {
+	text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.promo-btn { 
+	text-decoration: none;
+	border: solid 2px #FECE34;
+ }
+
+.submit {
+	background-color: #fff;
+    color: #000;
+}
+body{ }
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.order-consult { 
+     background-color: #202e3b;
+     height: 130px;
+}
+
+h2.title { 
+	color: #FFCE34;
+    padding: 20px;
+}
+input {
+	margin: 10px;
+	color: white;
+	border: solid 2px #FFCE34;
+    background-color: #202E3B;
+    padding: 10px;
+}
+.advantages {display: inline-block;}
+
+
+footer {
+	width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-left: 15px;
+background-color: #grey;
+}
+
+.footer_logo {
+text-decoration: none;
+color: black;}
+
+a.footer_inline { 
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+
+}
+
+
