@@ -1,4 +1,6 @@
 
+
+
 header{
 min-height: 75px;
 background-color: #ffce34;
@@ -19,44 +21,68 @@ margin-right: auto;
 padding-left: 15px;
 padding-left: 15px;
 border: solid 1px green;
-overflow: hidden;}
-
-.logo {padding: 20px 0px 20px 40px}
-
-nav.main-nav.right {
-  text-decoration: none;
-  padding: 20px 40px 20px 0;
 }
-.inline-link {color: black;}
+
+.logo {padding: 25px 0px 20px 40px}
+
+.main-nav {
+  text-decoration: none;
+  padding: 25px 30px 20px 0;
+  font-family: arial;
+}
+.inline-link {
+  color: black;
+font-size: 13px;
+}
+.call {
+  background-color: #FFE083;
+}
 
  .order-call {
-  background-color: #FFE083;
-  color: black;}
+  background-color: #FFE083 ;
+  color: black;
+  font-size: 13px;
+}
+ 
+ .inline-link-brown {color: #B08C1D;}
 
-
+ .inline {padding: 0px 20px 0px}
  
   /*promo-center*/
 
 
 
-.promo-center {
+.promo {
   background-image: url(http://www.masoncontractors.org/images/news/caterpillar-named-a-2013-silver-edison-award-winner-large.jpg);
   background-position:  center;
-  min-height: 500px;
+  min-height: 380px;
+  background-size: cover;
 }
 
 .promo-title {
 	text-transform: uppercase;
     font-size: 30px;
     text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
 }
 
-.promo-btn-cont{}
+.promo-text{
+  color: white;
+  font-size: 15px;
+  margin: 18px 150px 30px;
+  font-weight: lighter;
+  font-family: arial;
+  text-align: center;
+}
 .promo-btn { 
 	text-decoration: none;
-	border: solid 2px #FECE34;
-  color: black;
+	border: solid 1px #FECE34;
   padding: 10px;
+  color: white;
+  
  }
 
 .submit {
@@ -76,42 +102,69 @@ body{ }
 
 .order-consult { 
      background-color: #202e3b;
-     height: 130px;
+     height: 160px;
 }
 
 .title { 
-	color: #FFCE34;
-    padding: 20px;
+	  color: #FFCE34;
+    padding: 30px 0px 20px 20px;
+    font-size: 19px;
+    font-family: arial;
 }
 input {
-	margin: 10px;
-	color: white;
-	border: solid 2px #FFCE34;
+	  margin: 10px;
+	  color: white;
+	  border: solid 1px #FFCE34;
     background-color: #202E3B;
     padding: 10px;
 }
-.advantages {display: inline-block;}
+
+/*advantages*/
+
+.advantages {margin-top: 15px;}
+
+
+
+
+/*asider&table*/
+
+.offers {
+  overflow: hidden;
+  background-color: #F3F3F3;
+  margin-top: 15px;
+}
+
+.tech {
+  text-decoration: underline;
+  color: black;
+  font-size: 13px;
+  padding: 10px 0 10px 10px;
+}
+
+.subtitle{margin-right: 50px;}
+
+
+
+
+
+/*FOOTER*/
 
 
 footer {
-/*	width: 930px;*/
-/*    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-left: 15px;
-background-color: #grey;*/
+    background-color: #202E3B;
 }
 
 .footer_logo {
+
 text-decoration: none;
 color: black;}
 
-a.footer_inline { 
-	text-decoration: none;
+.footer-inline { 
+	
 	color: black;
 	display: inline-block;
-
+  
 }
-
+.footer_in
 
 /*каталог*/
