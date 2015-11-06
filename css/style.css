@@ -10,15 +10,40 @@ background-color: #ffce34;
 .left{float: left;}
 .right {
 	float: right;}
+  a{text-decoration: none;}
 .center{text-align: center;}
 .inline{display: inline-block;}
 .container{width: 930px;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
-padding-left: 15px;}
+padding-left: 15px;
+border: solid 1px green;
+overflow: hidden;}
 
-nav.main-nav.right {text-decoration: none;}
+.logo {padding: 20px 0px 20px 40px}
+
+nav.main-nav.right {
+  text-decoration: none;
+  padding: 20px 40px 20px 0;
+}
+.inline-link {color: black;}
+
+ .order-call {
+  background-color: #FFE083;
+  color: black;}
+
+
+ 
+  /*promo-center*/
+
+
+
+.promo-center {
+  background-image: url(http://www.masoncontractors.org/images/news/caterpillar-named-a-2013-silver-edison-award-winner-large.jpg);
+  background-position:  center;
+  min-height: 500px;
+}
 
 .promo-title {
 	text-transform: uppercase;
@@ -26,9 +51,12 @@ nav.main-nav.right {text-decoration: none;}
     text-align: center;
 }
 
+.promo-btn-cont{}
 .promo-btn { 
 	text-decoration: none;
 	border: solid 2px #FECE34;
+  color: black;
+  padding: 10px;
  }
 
 .submit {
@@ -42,12 +70,16 @@ body{ }
 
 }
 
+
+
+/*order consult*/
+
 .order-consult { 
      background-color: #202e3b;
      height: 130px;
 }
 
-h2.title { 
+.title { 
 	color: #FFCE34;
     padding: 20px;
 }
@@ -62,12 +94,12 @@ input {
 
 
 footer {
-	width: 930px;
-    margin-left: auto;
+/*	width: 930px;*/
+/*    margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-left: 15px;
-background-color: #grey;
+background-color: #grey;*/
 }
 
 .footer_logo {
@@ -82,3 +114,4 @@ a.footer_inline {
 }
 
 
+/*каталог*/
