@@ -121,7 +121,16 @@ input {
 
 /*advantages*/
 
-.advantages {margin-top: 15px;}
+.advantages {margin-top: 15px;
+}
+
+.advantages-item-fontsize {font-size: 11px;}
+
+.advantages-item-tools {
+  padding-left: 10px; 
+}
+
+.advantages-item-worker {padding-left: 700px;}
 
 
 
@@ -139,9 +148,15 @@ input {
   color: black;
   font-size: 13px;
   padding: 10px 0 10px 10px;
+  clear: right;
 }
 
-.subtitle{margin-right: 50px;}
+
+.subtitle{
+  
+  padding-right: 200px;
+  vertical-align: top;
+}
 
 
 
@@ -150,21 +165,42 @@ input {
 /*FOOTER*/
 
 
-footer {
-    background-color: #202E3B;
+.footer{
+  overflow: hidden;
+  background-color: #202E3B;}
+
+.footer-logo {padding: 25px 0px 20px 40px}
+
+
+.spec-name {color: #dfb535;}
+.main-nav {
+  text-decoration: none;
+  padding: 25px 30px 20px 0;
+  font-family: arial;
+}
+.footer-inline-link {
+  color: white;
+font-size: 13px;
 }
 
-.footer_logo {
-
-text-decoration: none;
-color: black;}
-
-.footer-inline { 
-	
-	color: black;
-	display: inline-block;
-  
+ .footer-order-call {
+  color: #dfb535;
+  font-size: 13px;
 }
-.footer_in
+ 
+
+
+ .inline {padding: 0px 20px 0px}
+ 
+
+
+
+
+
+
+
+
+
 
 /*каталог*/
+
