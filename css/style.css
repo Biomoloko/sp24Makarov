@@ -27,26 +27,28 @@ border: solid 1px green;
 
 .main-nav {
   text-decoration: none;
-  padding: 25px 30px 20px 0;
-  font-family: arial;
+  font-family: PT sans;
 }
 .inline-link {
   color: black;
 font-size: 13px;
-}
-.call {
-  background-color: #FFE083;
-}
+font-family: PT sans;
 
+}
  .order-call {
   background-color: #FFE083 ;
   color: black;
-  font-size: 13px;
+  font-size: 12px;
+  padding: 10px 25px;
+  font-weight: bold;
 }
  
- .inline-link-brown {color: #B08C1D;}
+ .inline-link-brown {
+  color: #B08C1D;
+  font-family: PT sans;
+  font-size: 12px;
+}
 
- .inline {padding: 0px 20px 0px}
  
   /*promo-center*/
 
@@ -66,15 +68,15 @@ font-size: 13px;
     margin-top: 100px;
     color: white;
     font-weight: bold;
-    font-family: arial;
+    font-family: PT sans;
 }
 
 .promo-text{
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   margin: 18px 150px 30px;
   font-weight: lighter;
-  font-family: arial;
+  font-family: PT sans;
   text-align: center;
 }
 .promo-btn { 
@@ -98,30 +100,48 @@ body{ }
 
 
 
-/*order consult*/
+/*order-consult*/
 
 .order-consult { 
      background-color: #202e3b;
      height: 160px;
+
 }
 
 .title { 
 	  color: #FFCE34;
     padding: 30px 0px 20px 20px;
-    font-size: 19px;
-    font-family: arial;
+    font-size: 21px;
+    font-family: PT sans;
+    font-weight: lighter;
 }
 input {
 	  margin: 10px;
 	  color: white;
 	  border: solid 1px #FFCE34;
     background-color: #202E3B;
-    padding: 10px;
+    padding: 10px 50px 10px 10px;
+    font-family: PT sans;
+    font-size: 12px;
 }
+.call-consultation-btn {
+  text-decoration: none;
+  color: #202E3B ;
+  background-color: #FFCE34;
+  display: inline-block;
+  padding: 8px 15px 8px 15px;
+  font-family: PT sans;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
 
 /*advantages*/
 
-.advantages {margin-top: 15px;
+.advantages {
+  margin-top: 15px;
+  font-family: PT sans;
 }
 
 .advantages-item-fontsize {font-size: 11px;}
@@ -141,23 +161,46 @@ input {
   overflow: hidden;
   background-color: #F3F3F3;
   margin-top: 15px;
+  font-family: PT sans;
 }
 
 .tech {
   text-decoration: underline;
   color: black;
   font-size: 13px;
+  
   padding: 10px 0 10px 10px;
   clear: right;
 }
 
+.technics-nav {
+  width: 213px;
+  padding-top: 30px;
 
-.subtitle{
-  
-  padding-right: 200px;
-  vertical-align: top;
 }
 
+.technics-links{
+  padding: 10px 0px 10px;
+  padding-bottom: 40px;
+}
+
+.tech-links {padding: 8px 0px 0px 0px}
+
+.subtitle {
+  padding-left: 8px;
+  font-size: 20px;
+}
+
+.subtitle-special-offer {
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+
+/*ABOUT*/
+
+.about { background-color: #202E3B;
+}
 
 
 
