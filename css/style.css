@@ -10,9 +10,8 @@ background-color: #ffce34;
     color: black;
 }
 .left{float: left;}
-.right {
-	float: right;}
-  a{text-decoration: none;}
+.right {float: right;}
+a{text-decoration: none;}
 .center{text-align: center;}
 .inline{display: inline-block;}
 .container{width: 930px;
@@ -22,6 +21,8 @@ padding-left: 15px;
 padding-left: 15px;
 border: solid 1px green;
 }
+
+ul {list-style-type: none;}
 
 .logo {padding: 25px 0px 20px 40px}
 
@@ -33,6 +34,7 @@ border: solid 1px green;
   color: black;
 font-size: 13px;
 font-family: PT sans;
+font-weight: bold;
 
 }
  .order-call {
@@ -42,14 +44,14 @@ font-family: PT sans;
   padding: 10px 25px;
   font-weight: bold;
 }
- 
+
  .inline-link-brown {
   color: #B08C1D;
   font-family: PT sans;
   font-size: 12px;
 }
 
- 
+
   /*promo-center*/
 
 
@@ -79,12 +81,12 @@ font-family: PT sans;
   font-family: PT sans;
   text-align: center;
 }
-.promo-btn { 
+.promo-btn {
 	text-decoration: none;
 	border: solid 1px #FECE34;
   padding: 10px;
   color: white;
-  
+
  }
 
 .submit {
@@ -102,13 +104,13 @@ body{ }
 
 /*order-consult*/
 
-.order-consult { 
+.order-consult {
      background-color: #202e3b;
      height: 160px;
 
 }
 
-.title { 
+.title {
 	  color: #FFCE34;
     padding: 30px 0px 20px 20px;
     font-size: 21px;
@@ -133,7 +135,7 @@ input {
   font-family: PT sans;
   font-weight: bold;
   font-size: 15px;
-  
+
 }
 
 
@@ -147,7 +149,7 @@ input {
 .advantages-item-fontsize {font-size: 11px;}
 
 .advantages-item-tools {
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 
 .advantages-item-worker {padding-left: 700px;}
@@ -160,7 +162,7 @@ input {
 .offers {
   overflow: hidden;
   background-color: #F3F3F3;
-  margin-top: 15px;
+  margin-top: 10px;
   font-family: PT sans;
 }
 
@@ -168,14 +170,14 @@ input {
   text-decoration: underline;
   color: black;
   font-size: 13px;
-  
-  padding: 10px 0 10px 10px;
+
+  padding: 5px 0 10px 10px;
   clear: right;
 }
 
 .technics-nav {
   width: 213px;
-  padding-top: 30px;
+  padding-top: 25px;
 
 }
 
@@ -199,7 +201,70 @@ input {
 
 /*ABOUT*/
 
-.about { background-color: #202E3B;
+.about {
+  background-color: #202E3B;
+  font-family: PT Sans;
+  overflow: hidden;
+
+}
+
+.about-digits {
+  padding-top: 30px;}
+
+.subtitle-digits {
+  color: white;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.digits-digits {
+  width: 30%;
+  padding: 10px 0px 40px 10px;
+}
+
+.about-digits-digit {
+  font-family: PT sans;
+  color: #888A8F;
+  font-size: 14px;
+}
+
+.current-digits {
+  color: #E0AF49;
+  font-size: 28px;
+}
+
+.about-reviews{
+  color: white;
+  font-size: 12px;
+  padding-top: 8px
+}
+.subtitle-review {
+  font-size: 22px;
+}
+
+.about-reviews-review {
+  padding: 20px 0 0px 0;
+}
+
+.about-reviews-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #C0CACD;
+}
+
+.about-reviews-author {
+  color: #F0B133;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+/*MAP*/
+
+.map {
+  background-color: #D4E4CD;
+  height: 400px;
 }
 
 
@@ -230,11 +295,10 @@ font-size: 13px;
   color: #dfb535;
   font-size: 13px;
 }
- 
+
 
 
  .inline {padding: 0px 20px 0px}
- 
 
 
 
@@ -242,8 +306,35 @@ font-size: 13px;
 
 
 
+/*-------- CATALOG --------*/
 
 
+.portfolio {
+  background-color: #131F2B;
+  font-family: PT sans;
+  overflow: hidden;
+}
 
-/*каталог*/
+.service {
+  display: inline-block;
+  }
+
+.service-nav {
+  font-size: 14px;
+  padding: 34px 0 28px 0;
+}
+
+.service-title {
+  vertical-align: center;
+  color: #FFCE34;
+  font-size: 20px;
+  padding: 32px 0 30px 0;
+}
+
+.service-type {
+  color: white;
+  vertical-align: center;
+  text-decoration: underline;
+  padding: 0px 10px 0 10px;
+}
 
