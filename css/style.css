@@ -3,11 +3,11 @@
 
 header{
 min-height: 75px;
-background-color: #ffce34;
-}
-.logo {
-	text-decoration: none;
-    color: black;
+background-color: #ffcd34;
+background-image: url(../img/lent.png);
+background-repeat: no-repeat;
+background-position: bottom;
+overflow: hidden;
 }
 .left{float: left;}
 .right {float: right;}
@@ -18,13 +18,12 @@ a{text-decoration: none;}
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
-padding-left: 15px;
 border: solid 1px green;
 }
 
 ul {list-style-type: none;}
 
-.logo {padding: 25px 0px 20px 40px}
+.logo {padding: 25px 0px 20px 10px}
 
 .main-nav {
   text-decoration: none;
@@ -57,7 +56,7 @@ font-weight: bold;
 
 
 .promo {
-  background-image: url(http://www.masoncontractors.org/images/news/caterpillar-named-a-2013-silver-edison-award-winner-large.jpg);
+  background-image: url(../img/ekskavator-hyundai.jpg);
   background-position:  center;
   min-height: 380px;
   background-size: cover;
@@ -65,7 +64,7 @@ font-weight: bold;
 
 .promo-title {
 	text-transform: uppercase;
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
     margin-top: 100px;
     color: white;
@@ -74,25 +73,33 @@ font-weight: bold;
 }
 
 .promo-text{
-  color: white;
-  font-size: 18px;
+  color: #c2c3bf;
+  font-size: 20px;
   margin: 18px 150px 30px;
-  font-weight: lighter;
   font-family: PT sans;
   text-align: center;
 }
+
+.promo-btn-div {
+  border: solid 2.3px #FECE34;
+  width: 170px;
+  height: 25px;
+  margin: 0 auto;
+  vertical-align: center;
+  padding: 8px 20px 5px 0px;
+  background-image: url(../img/arrowleft.gif);
+  background-repeat: no-repeat;
+  background-position: 90% 40%;
+  background-size: 10px;
+}
+
 .promo-btn {
 	text-decoration: none;
-	border: solid 1px #FECE34;
+
   padding: 10px;
   color: white;
 
  }
-
-.submit {
-	background-color: #fff;
-    color: #000;
-}
 body{ }
 *{
   margin: 0;
@@ -105,8 +112,12 @@ body{ }
 /*order-consult*/
 
 .order-consult {
-     background-color: #202e3b;
-     height: 160px;
+  background-color: #202e3b;
+  height: 160px;
+  background-image: url(../img/lent.png);
+  background-repeat: no-repeat;
+  background-position: top;
+
 
 }
 
@@ -116,28 +127,39 @@ body{ }
     font-size: 21px;
     font-family: PT sans;
     font-weight: lighter;
+    margin-left: -5px;
 }
 input {
-	  margin: 10px;
+margin: 10px ;
 	  color: white;
 	  border: solid 1px #FFCE34;
     background-color: #202E3B;
     padding: 10px 50px 10px 10px;
     font-family: PT sans;
-    font-size: 12px;
+    font-size: 14px;
 }
-.call-consultation-btn {
+
+.icon {background-image: url(../img/arrow_down.png);
+       background-repeat: no-repeat;
+       background-position: 90% 50%;
+     }
+ .call-consult-btn {
   text-decoration: none;
   color: #202E3B ;
   background-color: #FFCE34;
   display: inline-block;
-  padding: 8px 15px 8px 15px;
+  padding: 10px 15px 10px 15px;
   font-family: PT sans;
   font-weight: bold;
   font-size: 15px;
+  margin-left: 12px;
 
 }
 
+.to-consult {
+  margin-right: 25px;
+  margin-left: 0px;
+}
 
 /*advantages*/
 
@@ -146,13 +168,53 @@ input {
   font-family: PT sans;
 }
 
-.advantages-item-fontsize {font-size: 11px;}
-
-.advantages-item-tools {
-  padding-left: 10px;
+.row {
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.advantages-item-worker {padding-left: 700px;}
+.item-tools {
+  background-image: url(../img/tools.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.item-alarm {
+  background-image: url(../img/worker.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.item-border {
+  background-image: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.item-worker {
+  background-image: url(../img/helmetman.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+
+
+.advantages-item {
+  width: 22%;
+  max-height: 50px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 10px
+}
+
+.advantages-item-fontsize {
+  width: 75%;
+  float: right;
+
+}
+
 
 
 
@@ -164,21 +226,22 @@ input {
   background-color: #F3F3F3;
   margin-top: 10px;
   font-family: PT sans;
+  background-image: url(../img/lent.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.technics-nav {
+  width: 213px;
+  padding-top: 25px;
 }
 
 .tech {
   text-decoration: underline;
   color: black;
   font-size: 13px;
-
   padding: 5px 0 10px 10px;
   clear: right;
-}
-
-.technics-nav {
-  width: 213px;
-  padding-top: 25px;
-
 }
 
 .technics-links{
@@ -205,7 +268,10 @@ input {
   background-color: #202E3B;
   font-family: PT Sans;
   overflow: hidden;
-
+  background-image: url(../img/lent.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 400px;
 }
 
 .about-digits {
@@ -277,14 +343,14 @@ input {
   overflow: hidden;
   background-color: #202E3B;}
 
-.footer-logo {padding: 25px 0px 20px 40px}
+.footer-logo {padding: 15px 0px 0px 10px}
 
 
 .spec-name {color: #dfb535;}
 .main-nav {
   text-decoration: none;
   padding: 25px 30px 20px 0;
-  font-family: arial;
+  font-family: PT sans;
 }
 .footer-inline-link {
   color: white;
