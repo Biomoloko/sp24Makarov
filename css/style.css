@@ -21,13 +21,14 @@ border: solid 1px green;
 ul {list-style-type: none;
 }
 
-.logo {padding: 20px 0px 20px 10px}
+.logo {padding: 25px 0px 20px 10px}
 
 .main-nav {
   text-decoration: none;
-  font-family: PT sans;
+  font-family: "PT sans"
   float: right;
-
+  margin-top: 8px;
+  margin-right: -30px;
 }
 .inline-link-head {
   color: black;
@@ -43,14 +44,34 @@ font-weight: bold;
   font-size: 14px;
 }
 
+.inline-link-brown-head:hover {
+  background-image: url(..//img/activeborder.png);
+   }
+
+.inline-link-brown-head:active {}
+
 .order-call-head {
   background-color: #FFE083 ;
   color: black;
   font-size: 14px;
-  padding: 10px 14px;
+  padding: 10px 24px;
   font-weight: bold;
 }
 
+.order-call-head:hover {
+  background-color: #ffecb2 ;
+  color: black;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: bold;
+}
+
+.order-call-head:active {
+  background-color: #f6bf16;
+  color: black;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: bold;}
 
 
 
@@ -95,26 +116,22 @@ background-repeat: repeat-x;}
   text-align: center;
 }
 
-.promo-btn-div {
-  border: solid 2.3px #FECE34;
-  width: 170px;
-  height: 25px;
-  margin: 0 auto;
-  vertical-align: center;
-  padding: 8px 20px 5px 0px;
-  background-image: url(../img/arrowleft.gif);
-  background-repeat: no-repeat;
-  background-position: 90% 40%;
-  background-size: 10px;
-}
+
 
 .promo-btn {
 	text-decoration: none;
-
+  border: 2.3px solid #FECE34;
   padding: 10px;
-  color: white;
-
+  color: white ;
+  padding: 10px 60px 10px 24px;
+  background-image: url(..//img/arrowleft.gif);
+  background-repeat: no-repeat;
+  background-position: 87% 60%;
  }
+.promo-btn:hover {border: 2.3px solid #ffe390;}
+.promo-btn:active {border: 2.3px solid #ffe390;}
+ }
+}
 body{ }
 *{
   margin: 0;
@@ -505,17 +522,29 @@ font-weight: bold;
   font-size: 14px;
 }
 
+
 .order-call-contacts {
   background-color: #FFE083 ;
   color: black;
   font-size: 14px;
-  padding: 10px 16px;
+  padding: 10px 24px;
   font-weight: bold;
 }
 
+.order-call-contacts:hover {
+  background-color: #ffecb2 ;
+  color: black;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: bold;
+}
 
-
-
+.order-call-contacts:active {
+  background-color: #f6bf16;
+  color: black;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: bold;}
 
 
 
@@ -588,22 +617,30 @@ font-weight: bold;
 
 .need-consultation {
  margin-right: 60px;
- width: 250px;
+ width: 280px;
  display: inline-block;
  position: relative;
  margin-top: 20px;
 }
 
 .number {
+  background-image: url(..//img/phone.png);
+  background-repeat: no-repeat;
+  background-position: 0px 12px;
   font-weight: bold;
   font-size: 19px;
-  padding: 10px 0 10px 0;
+  padding: 10px 0px 10px 0;
+  padding-left: 40px;
 }
 
 .post {
   font-weight: bold;
   font-size: 19px;
   padding-bottom: 20px;
+  background-image: url(..//img/post.png);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+  padding-left: 40px;
 }
 
 .need-consultation>span{
@@ -628,17 +665,44 @@ font-weight: bold;
   height: 100px;
 }
 
-.consultation-btn-cont {
-  background-color: #354B60;
-  text-align: center;
-  width: 280px;
-  padding: 10px 0 10px 0;
-  margin-top: 17px;
-}
 
 .consultation-btn {
+
+  display: inline-block;
   color: white;
   font-weight: lighter;
   font-size: 16px;
+  background-color: #2E485E;
+  padding: 10px 50px;
+  width: 183px;
+  text-align: center;
+  margin-top: 20px;
 }
 
+
+
+
+
+
+.comments {
+  font-family: "PT sans";
+  height: 360px;
+}
+.comments-peoples {
+
+  padding-left: 15px;
+  display: inline-block;
+  width: 23%;
+text-align: center;
+font-size: 14px;
+margin-left: -6px;
+}
+
+.comments-peoples-text {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.comments span {
+font-size: 14px;
+}
