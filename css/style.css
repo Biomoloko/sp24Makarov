@@ -2,7 +2,7 @@
 
 
 header{
-height: 100px;
+height: 80px;
 background-color: #ffcd34;
 overflow: hidden;
 }
@@ -21,34 +21,41 @@ border: solid 1px green;
 ul {list-style-type: none;
 }
 
-.logo {padding: 25px 0px 20px 10px}
+.logo {padding: 18px 0px 20px 10px}
 
 .main-nav {
   text-decoration: none;
   font-family: "PT sans"
   float: right;
-  margin-top: 8px;
-  margin-right: -30px;
+  margin-right: 0px;
+  margin-top: 26px;
 }
 .inline-link-head {
-  color: black;
+color: black;
 font-size: 14px;
 font-family: PT sans;
 font-weight: bold;
-
 }
+.header-element {margin: -11px;}
 
 .inline-link-brown-head {
   color: #735c17;
   font-family: PT sans;
   font-size: 14px;
+  border: 3px solid transparent;
+  padding: 9px;
+
 }
 
 .inline-link-brown-head:hover {
-  background-image: url(..//img/activeborder.png);
-   }
+  border: 3px solid grey;
+  padding: 9px;
+}
 
-.inline-link-brown-head:active {}
+.inline-link-brown-head:active {
+  border: 3px solid black;
+  padding: 9px;
+}
 
 .order-call-head {
   background-color: #FFE083 ;
@@ -129,6 +136,7 @@ background-repeat: repeat-x;}
   background-position: 87% 60%;
  }
 .promo-btn:hover {border: 2.3px solid #ffe390;}
+
 .promo-btn:active {border: 2.3px solid #ffe390;}
  }
 }
@@ -184,7 +192,7 @@ margin: 10px ;
        background-repeat: no-repeat;
        background-position: 90% 50%;
      }
- .call-consult-btn {
+.call-consult-btn {
   text-decoration: none;
   color: #202E3B ;
   background-color: #FFCE34;
@@ -194,8 +202,11 @@ margin: 10px ;
   font-weight: bold;
   font-size: 15px;
   margin-left: 12px;
-
 }
+.call-consult-btn:hover{background-color: #ffd966;}
+.call-consult-btn:active {background-color: #f6bf16;}
+
+
 
 .to-consult {
   margin-right: 25px;
@@ -428,21 +439,28 @@ background-repeat: repeat-x;}
 
 .footer{
   overflow: hidden;
-  background-color: #202E3B;}
+  background-color: #202E3B;
+  height: 65px;}
 
-.footer-logo {padding: 15px 0px 0px 10px}
+.footer-logo {padding: 13px 0px 0px 0px}
 
 
 .spec-name {color: #dfb535;}
-.main-nav {
+.main-nav-footer {
   text-decoration: none;
-  padding: 25px 30px 20px 0;
+  padding: 20px 30px 20px 0px;
   font-family: PT sans;
+  font-size: 30px;
+  margin-top: -15px;
+
 }
 .footer-inline-link {
   color: white;
 font-size: 13px;
 }
+
+.footer-links {padding: 100px;}
+
 
  .footer-order-call {
   color: #dfb535;
@@ -462,34 +480,7 @@ font-size: 13px;
 /*-------- CATALOG --------*/
 
 
-.portfolio {
-  background-color: #131F2B;
-  font-family: PT sans;
-  overflow: hidden;
-}
 
-.service {
-  display: inline-block;
-  }
-
-.service-nav {
-  font-size: 14px;
-  padding: 34px 0 28px 0;
-}
-
-.service-title {
-  vertical-align: center;
-  color: #FFCE34;
-  font-size: 20px;
-  padding: 32px 0 30px 0;
-}
-
-.service-type {
-  color: white;
-  vertical-align: center;
-  text-decoration: underline;
-  padding: 0px 10px 0 10px;
-}
 
 
 /*---------- CONTACTS ----------*/
@@ -498,7 +489,7 @@ font-size: 13px;
 content:"";
 position: absolute;
 left: 0;
-top: 87px;
+top: 80px;
 width: 100%;
 height: 20px;
 background-image:
@@ -520,7 +511,12 @@ font-weight: bold;
   color: #735c17;
   font-family: PT sans;
   font-size: 14px;
+  border: 3px solid transparent;
+  padding: 9px;
 }
+
+.inline-link-brown-contacts:hover {border: 3px solid gray;}
+.inline-link-brown-contacts:active {border: 3px solid black;}
 
 
 .order-call-contacts {
@@ -551,6 +547,11 @@ font-weight: bold;
 
 
 
+
+
+
+
+
 .consultation {
   background-image: url(../img/excavatorback.jpg);
   background-size: cover;
@@ -573,9 +574,11 @@ font-weight: bold;
   top: 30px;
   padding: 10px 18px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 16px;}
 
-}
+
+.consult-btn:hover {background-color: #ffd966;}
+.consult-btn:active {background-color: #ffd966;}
 
 .consultation-paragraf {
   position: absolute;
@@ -667,7 +670,6 @@ font-weight: bold;
 
 
 .consultation-btn {
-
   display: inline-block;
   color: white;
   font-weight: lighter;
@@ -679,7 +681,15 @@ font-weight: bold;
   margin-top: 20px;
 }
 
+.consultation-btn:hover {background-color: #46617a;}
+.consultation-btn:active {background-color: #567999;}
 
+.map-contacts {
+  margin-top: 30px;
+  height: 400px;
+  width: 565px;
+  border: 1px solid #dedede;
+}
 
 
 
@@ -705,4 +715,157 @@ margin-left: -6px;
 
 .comments span {
 font-size: 14px;
+}
+
+
+
+
+
+
+/*------------PORTFOLIO---------------*/
+
+.portfolio {
+  background-image: url(..//img/portfolio-exkavator.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: PT sans;
+  overflow: hidden;
+  height: 110px;
+}
+
+.service {
+  display: inline-block;
+  padding-left: 15px;
+  }
+
+.service-title {
+  vertical-align: center;
+  color: #FFCE34;
+  font-size: 24px;
+  padding: 45px 0 30px 0;
+  font-weight: lighter;
+}
+.service-nav {
+  font-size: 14px;
+  padding: 50px 15px 28px 15px;
+  font-weight: lighter;
+}
+.service-type {
+  color: white;
+  vertical-align: center;
+  text-decoration: underline;
+  padding: 0px 10px 0 10px;
+}
+
+
+
+
+
+
+.house-container {
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.house-first {
+  background-image: url(..//img/First-house.jpg);
+  border-top: 10px solid black ;
+}
+
+.house-second {
+  background-image: url(..//img/second-house.jpg);
+  border-bottom: 10px solid black;
+  border-top: 10px solid black ;
+}
+
+.house-third {
+  background-image: url(..//img/third-house.jpg);
+}
+
+.house-third:after {
+content:"";
+position: absolute;
+left: 0;
+top: 470px;
+width: 100%;
+height: 20px;
+background-image:
+linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 20px 14px;
+background-repeat: repeat-x;}
+
+
+
+
+
+
+
+
+.about-house {
+  background-color: white;
+  height: 250px;
+  width: 310px;
+  margin: 100px 0px 0px 10px;
+  font-family: "PT sans";
+  overflow: hidden;
+  position: relative;
+}
+
+.about-house-cont {
+  margin: 20px 25px;
+  text-align: left;
+  display: inline-block;
+}
+
+.about-house-name {
+   font-size: 20px;
+   font-weight: bold;
+   position: absolute;
+   left: 24px;
+   top: 20px;
+}
+.about-house-info {
+  font-size: 14px;
+  position: absolute;
+  left: 24px;
+  top: 90px;
+}
+.about-house-btn {
+  color: #202e3b;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #FDCE33;
+  padding: 10px 40px 10px 10px;
+  background-image: url(..//img/arrow_portfolio.png);
+  background-repeat: no-repeat;
+  background-position: 87% 54%;
+  position: absolute;
+  left: 24px;
+  top: 180px;
+}
+
+
+
+.order-consult-portfolio {
+  margin-top: 13px;
+  background-color: #202E3B;
+}
+
+
+
+
+
+.advantages-portfolio {
+  height: 130px;
+}
+
+.row-portfolio-parent {
+  position: relative;
+}
+.row-portfolio {
+  position: absolute;
+  top: 45px;
 }
