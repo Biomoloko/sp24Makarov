@@ -608,7 +608,7 @@ margin-top: 20px;
 
 }
 
-.catalog-item-right{}
+
 
 .catalog-item-title {
   padding: 18px 0px 30px 28px;
@@ -679,7 +679,6 @@ margin-top: 20px;
 .pagination-number {
   padding-left: 12px;
   padding-right: 0px;
-
 }
 
 
@@ -690,11 +689,67 @@ margin-top: 20px;
 
 .catalog-special-offer {
   font-family: "PT sans";
-  height: 540px;
+  height: 490px;
   background-image: url(..//img/catalog-tractor-offers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+
 }
+
+.spec-offer {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+  font-weight: bold;
+
+}
+
+.offers-item {
+  background-color: white;
+  width: 290px;
+  height: 350px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.item-first {
+  margin-right: 17px;
+  position: relative;
+}
+.item-second {margin-right: 17px;}
+.deleted-price {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  margin-left: 28px;
+}
+
+.offers-price-current {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.offers-price {
+font-size: 16px;
+font-weight: bold;
+}
+.red-lent {
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: red;
+  color: #fff;
+  padding: 5px 40px;
+  top: 5px;
+  right: -35px;
+}
+
+
+
+
+
 
 
 /*---------- CONTACTS ----------*/
@@ -910,8 +965,9 @@ font-weight: bold;
 
 .comments {
   font-family: "PT sans";
-  height: 360px;
+  height: 420px;
 }
+.word-comment {margin-top: 25px;}
 .comments-peoples {
 
   padding-left: 15px;
@@ -920,6 +976,7 @@ font-weight: bold;
 text-align: center;
 font-size: 14px;
 margin-left: -6px;
+margin-top: 30px;
 }
 
 .comments-peoples-text {
